@@ -5,7 +5,3 @@ output "vm_pub_ip_addr" {
 output "postgres_pub_ip_addr" {
   value = google_sql_database_instance.postgres.ip_address.0.ip_address
 }
-
-output "postgres_priv_ip_addr" {
-  value = google_sql_database_instance.postgres.ip_address.0.ip_address
-}
